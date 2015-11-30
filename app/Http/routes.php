@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/xiao',function(){
+    return view('xiao.index');
+});

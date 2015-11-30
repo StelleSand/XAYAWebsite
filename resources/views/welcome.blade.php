@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title"><a href="\xiao">X</a>AYA<hr>Welcome to<br>Xiao And Yang's Association!<hr>余果同学开心点~</div>
             </div>
         </div>
     </body>
