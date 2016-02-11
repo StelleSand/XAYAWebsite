@@ -11,9 +11,14 @@
 |
 */
 
+Route::get('about', function () {
+    return view('pages.about');
+});
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.home');
 });
-Route::get('/xiao',function(){
-    return view('xiao.index');
-});
+Route::get('login','Auth\AuthController@getLogin');
+Route::get('logout','Auth\AuthController@getLogout');
+Route::post('login','Auth\AuthController@postLogin');
+Route::get('register','Auth\AuthController@getRegister');
+Route::post('register','Auth\AuthController@postRegister');
